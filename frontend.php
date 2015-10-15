@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 	<head>
 		<meta charset="utf-8"/>
 		<title>data</title>
 	</head>
+
 	<body>
 
 		<h1>Data Design Project </h1>
 			<A HREF="https://www.youtube.com/watch?v=WPvGqX-TXP0">Click here for youtube</A>
 		<h2>Persona and Demographics.</h2>
 
-			<p>The major demographic of users who watch youtube tutorials on Java coding, are either learning how to code in java, or are using the video as reference material, while they are coding. They are most likely computer savvy and have basic understanding of computer coding. This demographic of user would also expect that the type of youtube video they are looking for could be found using some type of search function. This demographic would also demand a rating system on youtube to ensure they are watching a high quality video, and the information is correct. Finally, the most important feature this demographic would need, is the ability to pause and jump around in the video to ensure they got the most information possible.</p>
+			<p>The major demographic of users who watch youtube tutorials on Java coding, are either learning how to code in java, or are using the video as reference material, while they are coding. Micah is one such user, he is 25, has a moderate understanding of coding, and is watching the video on his laptop using Chrome on a wifi connection. Micah would expect the type of youtube video he was looking for could be found using some type of search function. Micah would also demand some type of rating system on youtube to ensure that he is watching a high quality video, and the information is correct. Finally, the most important feature Micah would need, is the ability to pause and jump around in the video to ensure he got the most information possible from the video.</p>
 
-		<h2>User Case</h2>
+		<h3>User Case</h3>
+<h4>Micahs goal is to find a video on Java coding</h4>
+		<ol>
+			<li>Micah goes to youtube</li>
+			<li>browser loads youtube home page</li>
+			<li>Micah searches for videos about Java </li>
+			<li>Youtube searches database for videos that are relevant to Java</li>
+			<li>Micah looks for a video relavent to what he was looking for, and clicks on the video.</li>
+			<li>Youtube loads video in a new page </li>
+			<li>Micah checks comments to make sure video is accurate and presses play</li>
+			<li>Youtube begins streaming video and checks Micahs connection to decide what quality of video to stream. </li>
+			<li>Micah pauses or fast forewords as needed.</li>
+			<li>Youtubes video player registers Micahs actions and manipulates the video as needed</li>
+			<li>Micah finishes video and comments, upvotes the video because it was useful.</li>
+			<li>Youtube adds comment to the comment thread and increases the number the upvotes on the video, which in theory would make the video easier to find for other users</li>
+		</ol>
 
-			<ol>
-			<li>Go to youtube</li>
-				<li>search For videos about Java </li>
-					<li>Find Video most relavent to what you are searching for</li>
-						<li>make sure content in video is accurate</li>
-							<li>Pause, fast-foreword, and rewind video as needed</li>
-								<li>comment or upvote if the video was useful.</li>
-			</ol>
+		<h3>Control Schema</h3>
+
+		<h4>Entity: Account.</h4>
+			<h5> Atributes</h5>
+				<ul>
+					<li>Account id</li>
+					<li>Profile name</li>
+					<li>email</li>
+					<li>Videos this person has uploaded</li>
+					<li>Profile Information</li>
+				</ul>
+			<h5>Relationship</h5>
+				<p>The relationship between acount and video would be one to many. )</p>
+
+		<h4>Entity: Video.</h4>
+			<h5>Attributes</h5>
+				<ul>
+					<li>title</li>
+					<li>watch count</li>
+					<li>acount id</li>
+					<li>resolution</li>
+					<li>file type</li>
+				</ul>
+		<h5>Relationship</h5>
+			<p>The relationship would be many to one. Each video can only be associated with one account. </p>
+
 	</body>
 </html>

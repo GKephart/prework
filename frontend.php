@@ -56,6 +56,8 @@
 				</ul>
 		<h5>Relationship</h5>
 			<p>The relationship would be many to one. Each video can only be associated with one account. </p>
+<img src="img/youtubeDataDesign.svg" alt="relationship data"/>
 
 	</body>
+
 </html>

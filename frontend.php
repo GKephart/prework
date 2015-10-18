@@ -4,13 +4,19 @@
 	<head>
 		<meta charset="utf-8"/>
 		<title>data</title>
+		<style>
+			h1 {text-align:center;}
+			h2{text-align: center}
+		</style>
 	</head>
 
 	<body>
 
 		<h1>Data Design Project </h1>
-			<A HREF="https://www.youtube.com/watch?v=WPvGqX-TXP0">Click here for youtube</A>
+			<iframe width="540" height="290" src="https://www.youtube.com/embed/WPvGqX-TXP0" frameborder="0" allowfullscreen></iframe
+		<br/>
 		<h2>Persona and Demographics.</h2>
+
 
 			<p>The major demographic of users who watch youtube tutorials on Java coding, are either learning how to code in java, or are using the video as reference material, while they are coding. Micah is one such user, he is 25, has a moderate understanding of coding, and is watching the video on his laptop using Chrome on a wifi connection. Micah would expect the type of youtube video he was looking for could be found using some type of search function. Micah would also demand some type of rating system on youtube to ensure that he is watching a high quality video, and the information is correct. Finally, the most important feature Micah would need, is the ability to pause and jump around in the video to ensure he got the most information possible from the video.</p>
 

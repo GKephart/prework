@@ -7,7 +7,7 @@
 		<style>
 			h1 {text-align:center;}
 			p { text-align:justify;}
-			body {background-color:lightgray}
+			body {background-color:lightgrey}
 		</style>
 	</head>
 
@@ -63,8 +63,8 @@
 				</ul>
 		<h5>Relationship</h5>
 			<p>The relationship would be many to one. Each video can only be associated with one account. </p>
-<img src="img/youtubeDataDesign.svg" alt="relationship data"/>
-
+		<br/>
+		<img src="img/youtubeDataDesign4.svg" alt="relationshipdata4"/>
 	</body>
 
 </html>

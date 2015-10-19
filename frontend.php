@@ -14,12 +14,14 @@
 	<body>
 
 		<h1>Data Design Project </h1>
-			<iframe width="540" height="290" src="https://www.youtube.com/embed/WPvGqX-TXP0" frameborder="0" allowfullscreen></iframe
+
+		<iframe width="540" height="290" src="https://www.youtube.com/embed/WPvGqX-TXP0" frameborder="0" allowfullscreen></iframe
+
 		<br/>
+
 		<h2>Persona and Demographics.</h2>
 
-
-			<p>The major demographic of users who watch youtube tutorials on Java coding, are either learning how to code in java, or are using the video as reference material, while they are coding. Micah is one such user, he is 25, has a moderate understanding of coding, and is watching the video on his laptop using Chrome on a wifi connection. Micah would expect the type of youtube video he was looking for could be found using some type of search function. Micah would also need some type of rating system on youtube to ensure that he is watching a high quality video, and the information is correct. Finally, the most important feature Micah would want, is the ability to pause and jump around in the video to ensure he got the most information possible from the video.</p>
+		<p>The major demographic of users who watch youtube tutorials on Java coding, are either learning how to code in java, or are using the video as reference material, while they are coding. Micah is one such user, he is 25, has a moderate understanding of coding, and is watching the video on his laptop using Chrome on a wifi connection. Micah would expect the type of youtube video he was looking for could be found using some type of search function. Micah would also need some type of rating system on youtube to ensure that he is watching a high quality video, and the information is correct. Finally, the most important feature Micah would want, is the ability to pause and jump around in the video to ensure he got the most information possible from the video.</p>
 
 		<h3>User Case</h3>
 <h4>Micahs goal is to find a video on Java coding.</h4>
@@ -64,7 +66,7 @@
 		<h5>Relationship</h5>
 			<p>The relationship would be many to one. Each video can only be associated with one account. </p>
 		<br/>
-		<img src="img/youtubeDataDesign4.svg" alt="relationshipdata4"/>
+		<img src="img/youtubeDataDesign5.svg" alt="relationshipdata4"/>
 	</body>
 
 </html>

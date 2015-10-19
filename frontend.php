@@ -67,6 +67,36 @@
 			<p>The relationship would be many to one. Each video can only be associated with one account. </p>
 		<br/>
 		<img src="img/youtubeDataDesign5.svg" alt="relationshipdata5"/>
+
+		<h3>Code sample</h3>
+		<pre>
+			<code>DROP TABLE IF EXISTS youtubeVideo;
+				DROP TABLE IF EXISTS youtubeAccount;
+
+				CREATE TABLE youtubeAccount (
+				accountId   INT UNSIGNED AUTO_INCREMENT NOT NULL,
+				email       VARCHAR(128)                NOT NULL,
+				accountName VARCHAR(32)                 NOT NULL,
+				userInfo    VARCHAR(100),
+				salt CHAR (64) NOT NULL,
+				hash CHAR (128) NOT NULL,
+				UNIQUE (email),
+				UNIQUE (accountName),
+				PRIMARY KEY (accountId)
+				);
+
+				CREATE TABLE youtubeVideo (
+				youtubeVideoId INT UNSIGNED AUTO_INCREMENT NOT NULL,
+				accountId      INT UNSIGNED                NOT NULL,
+				videoTitle     VARCHAR(28)                 NOT NULL,
+				fileFormatType VARCHAR(8)                  NOT NULL,
+				resolution     CHAR(5)                     NOT NULL,
+				videoPublishDate DATETIME                  NOT NULL,
+				INDEX (accountId),
+				FOREIGN KEY (accountId) REFERENCES youtubeAccount(accountId),
+				PRIMARY KEY (youtubeVideoId;
+			</code>
+		</pre>
 	</body>
 
 </html>

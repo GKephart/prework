@@ -94,7 +94,8 @@
 				videoPublishDate DATETIME                  NOT NULL,
 				INDEX (accountId),
 				FOREIGN KEY (accountId) REFERENCES youtubeAccount(accountId),
-				PRIMARY KEY (youtubeVideoId;
+				PRIMARY KEY (youtubeVideoId)
+				);
 			</code>
 		</pre>
 	</body>

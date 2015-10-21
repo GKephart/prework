@@ -69,7 +69,9 @@
 		<img src="img/youtubeDataDesign5.svg" alt="relationshipdata5"/>
 
 		<h3>Code sample</h3>
+
 		<pre>
+
 			<code>DROP TABLE IF EXISTS youtubeVideo;
 				DROP TABLE IF EXISTS youtubeAccount;
 
@@ -97,7 +99,9 @@
 				PRIMARY KEY (youtubeVideoId)
 				);
 			</code>
+
 		</pre>
+
 	</body>
 
 </html>
